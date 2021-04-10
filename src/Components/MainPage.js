@@ -1,10 +1,10 @@
 import React from 'react';
 
-const MainPage = () => {
+function MainPage() {
     
     return (
         <div> MAIN PAGE</div>
     )
 }
 
-export default MainPage();
+export default MainPage;
