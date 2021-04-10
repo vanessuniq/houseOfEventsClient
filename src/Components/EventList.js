@@ -7,4 +7,8 @@ function EventList({ events }) {
         </div>
     )
 };
+
+EventList.defaultProps = {
+    events: [],
+};
 export default EventList
