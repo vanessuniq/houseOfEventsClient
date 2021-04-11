@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import EventList from "./EventList";
 import Header from "./Header";
 
-const BASE_API = "http://localhost:3000";
+const BASE_API = "http://localhost:8080";
 
 function MainPage() {
     //setting the state that will save all events fetched from the api
